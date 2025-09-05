@@ -6,8 +6,8 @@ const Login = () => {
   return (
     <div>
       <h2>Login</h2>
-      <button onClick={()=> navigate("/")}>Go Home</button>
-      <button onClick={()=> navigate(-1)}>Go Back</button>
+      <button className=' rounded-full bg-gray-500 py-4 px-7 mr-4 mt-5 text-white' onClick={()=> navigate("/")}>Go Home</button>
+      <button className=' rounded-full bg-gray-500 py-4 px-7 text-white' onClick={()=> navigate(-1)}>Go Back</button>
     </div>
   )
 }

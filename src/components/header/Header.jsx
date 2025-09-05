@@ -10,6 +10,7 @@ const Header = () => {
       <NavLink className={({isActive})=> `uppercase ${isActive ? "text-red-500 underline" : ""}`} to={"/about"}>About</NavLink>
       <NavLink className={({ isActive }) => `uppercase ${isActive ? "text-red-500 underline" : ""}`} to={"/contact"}>Contact</NavLink>
       <NavLink className={({ isActive }) => `uppercase ${isActive ? "text-red-500 underline" : ""}`} to={"/service"}>Service</NavLink>
+      <NavLink className={({ isActive }) => `uppercase ${isActive ? "text-red-500 underline" : ""}`} to={"/users"}>Users</NavLink>
       <NavLink className={({isActive})=> `uppercase ${isActive ? "text-red-500 underline" : ""}`} to={"/login"}>Login</NavLink>
     </header>
   );
